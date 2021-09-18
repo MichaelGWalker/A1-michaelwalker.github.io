@@ -5,26 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Assignment 1 Week 3</title>
-    <!-- Core theme CSS just for laughs. Lets see if it gets used -->
-    <link href="css/styles.css" rel="stylesheet" />
+    <title>Personal Profile</title>
+    <style>
+    h1 {text-align: center;}
+    * {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 </head>
 <body>
- <section>
-   <div>
-    <img src="profile.JPG" alt="profile picture" style="width:100%">
-   <div>
-   <div class="">
-    <h1><strong>MICHAEL<strong> WALKER</h1>
-   </div>
+<section>
+ <div class="row">
+   <div class="column left">
     <div>
+     <img src="assets/profile.jpg" alt="profile picture" style="width:100%">
+    </div>
+    <div>
+    <h1>MICHAEL WALKER</h1>
+    </div>
+  </div>
+  <div class="column right">
+    <div class="flex-grow-1">
      <p>Hello everyone!
      <br>My name is Michael Walker, 28 years old, with a lovely wife and four children. I am a qualified electrician and have been working in the elevator industry for about 7 years in various roles (Technical, sales, site management), but the goal is to fully transition into IT within ten years for a variety of reasons including a heavy interest in all things "computer". When the time is available, I enjoy being with my growing family, visiting places with friends here in Brisbane Queensland, or working on never-ending home improvement projects.</p>
      <p>Although I was born in Western Australia and now live in Queensland, you would think I was a Kiwi due to my accent (English speaking only sorry). This is because my family and I lived in a small town called Kawerau in the Bay Of Plenty, New Zealand for fifteen years. It was a lovely little town that kept cleaning up awards for "the most beautiful town" competition to the point that the compitition was eventually cancelled. It did have a dark side to it due to the heavy gang presence (Mongrel Mob, Black Power, Tribesmen etc) and this meant that a street-smart awarness was instilled into me from an early age.</p>
-     <p>That being said, many a day was spent swimming in the rivers and lakes close-by and much fun was also had from roaming the town and surrounding bush and forestry, reading in the local library (I was a massive book worm), and helping out in the businesses own by the family.</p>
+     <p>That being said, many a day was spent swimming in the rivers and lakes close-by and much fun was also had from roaming the town and surrounding bush and forestry, reading in the local library (I was a massive book worm), and helping out in the family business.</p>
    </div>
    <!-- Personel Profile-->
-   <section>
        <div>
            <h2>Personel Profile</h2>
            <div>
@@ -56,7 +85,7 @@
                <div class="flex-grow-1">
                  <h3>Big 5 Personality</h3>
                  <div>
-                   <a href="truitybigfivereport.pdf">Openness</a>
+                   <a href="assets/big5/truitybigfivereport.pdf">Openness</a>
                  </div>
                    <p>Demonstrating to be higher than average in Openness, Conscientiousness and Agreeableness but lower than average in Extraversion and extremely low in Neuroticism.
                    <br>Good at establishing and maintaining relationships with a smaller, supportive, interesting, and diverse circle of people. High degree of independence and initiative, and highly capable of quiet, focused thought means that ideas to overcome problems can be novel and creative.
@@ -73,9 +102,7 @@
                </div>
            </div>
        </div>
-   </section>
    <!-- Interest In IT-->
-   <section>
     <div>
       <h2>Interest In IT</h2>
         <div>
@@ -84,18 +111,16 @@
          In the meantime, focusing on IT studies and gathering greater exposure to the tools required (computers, audio and visual equipment, text edtitors, compilers etc) is the current game plan.  </p>
        </div>
     </div>
-   </section>
    <!-- Ideal Job -->
-   <section>
-       <div>
-           <h2>Ideal Job</h2>
-           <div>
-             <p>For me, nailing down what the ideal job would be is tricky because I am interested by so many different things. What some broad strokes might be could entail the following:
-               <ul>
-                <li>Development.</li>
-                <li>Customer interaction (preferably B2B).</li>
-                <li>Managment.</li>
-             </ul></p>
+    <div>
+      <h2>Ideal Job</h2>
+        <div>
+          <p>For me, nailing down what the ideal job would be is tricky because I am interested by so many different things. What some broad strokes might be could entail the following:
+            <ul>
+              <li>Development.</li>
+              <li>Customer interaction (preferably B2B).</li>
+              <li>Managment.</li>
+            </ul></p>
              <p>And not to mention areas such as:
                <ul>
                 <li>Health.</li>
@@ -103,27 +128,25 @@
                 <li>Facilities management.</li>
                </ul></p>
                <p>A good reflection of what this might be is this screenshot of advertised job description that I found on Seek.</p>
-                 <div><img src="ideal_job.jpeg" alt="Job Position Screenshot" style="width:50%"></div>
+                <div><img src="assets/ideal_job.jpeg" alt="Job Position Screenshot" style="width:50%"></div>
                <p>Now I am currently a long way from having all the skills necessary and desirable for being able to apply for this kind of position. But what makes it so attractive is the wide skillsets needed. Already, I have good customer relationship building and stakeholder management skills along with skills in multi-tasking in high pressure environments while meeting deadlines, and team leadership but also being able to perform in a solo capacity. Now, if I were to want that exact job, the first step would be to obtain the relevant technical skills. Studying and completing a degree in IT would be a solid base from which one would then branch out into positions that offer (or make use of) the specific skills needed for the above position like cloud application, security, IT integration etc.</p>
                <p>However, it could be entirely likely that the delight in building attractive, functional websites for overjoyed clients might also make itself known. In that case, it would start as a freelancing project and over time be built into a business made up of a team of people.</p>
-        </div>
+           </div>
        </div>
-   </section>
    <!-- Project Idea -->
-   <section>
        <div>
            <h2>My Project Idea</h2>
-           <div>Overview</div>
+           <p><b>Overview</b></p>
            <p>This project idea is going to address management issues with regards to scheduling maintenance activities and service or certification tasks. This idea, being in its infancy and currently only on paper, will take into account the possibility for scalability and flexibility with regards to new ideas that will improve and/or expand its scope or effectiveness.
            The project will be based on a Parent/Child design with a Web Portal/Parent interface used in conjunction with an App/Child on a phone or tablet.
            Simply put, the goal of this idea is to cut time lost to field administration.</p>
-           <div>Why is this even an idea?</div>
+           <p><b>Why is this even an idea?</b></p>
            <p>Currently, maintenance schedules for field service technicians are bulky, unintuitive designs that are constantly looked down upon by technicians, almost all of which have great aversion to any form of administration activities that they are required to do. This quite often means that office administration has to spend time and effort to remind their field staff to complete these tasks.
            Another fault that this causes can be seen on my own current field.
            <br>
            I am a field technician in the elevator industry. Due to the niche nature of this industry being mainly occupied by qualified electricians, the wage enjoyed by the service men and women is one of the highest in the electrical field (barring FIFO occupations). This means that employers are relying on highly paid technicians to complete administrative activities usually completed by an office admin team or member. To further this issue, once the field team members complete and submit their paperwork concerning the relevant field tasks, the office admin team usually have to process these submissions further and send/email these completed formworks to their relevant destinations.
            Over time, the costs accrued by companies from these inefficiencies add up. Even with a crew of 4 technicians in the company I work for, the cost the company bears for us to tick and sign the same input fields on almost every maintenance task comes to almost $25,000 AUD a year! And there are multiple crews per state, times multiple states, times three countries. Keep in mind that this doesn’t take into consideration the further processing costs of the company’s service coordination/admin department.</p>
-           <div>What is going to fix this issue?</div>
+           <p><b>What is going to fix this issue?</b></p>
            <p>There are a lot of apps out there that aim to fill this space and some of them do an ok job (from personal experience and from reading reviews on what I have not experienced), but what none of them do, it seems, is do what WIX did for bloggers that did not fancy using WordPress. What this project aims to accomplish is to create a solution that can be easily employed in a simple, intuitive way that will cut administration costs generated by field team members. This can be done in a number of ways:
            <ul>
             <li>Pre-built templates available.</li>
@@ -164,15 +187,16 @@
            <li>Location of devices so employers can prioritise labour for unplanned callouts.</li>
            <li>Media uploads through the app.</li>
            </ul></p>
-           <div>How is this going to come to life?</div>
+           <p><b>How is this going to come to life?</b></p>
            <p>Although good ideas are great, the skills and energy to turn ideas into something usable or enjoyable is even better.
            Good website and app development skills will be necessary to build this project along with some artistic skills to help present the completed design in a tasteful, inviting way.
            What will also be vital is the experience and feedback from a target market sample. This will ideally be a tradesperson who also understands small-to-medium business operations. This will greatly help in shaping the finished product into a tool that is made for its market, by its market’s population.</p>
-           <div>Conclusion</div>
+           <p><b>Conclusion</b></p>
            <p>If successful, this will provide small-to-medium businesses the ability to vastly reduce the time spent on admin activities by that business’ field members. This in turn will reduce the costs associated while increasing the productivity of the user.
            In time, the ability for businesses to streamline All admin duties, not just for field teams, but also for HR departments, sales teams, accounts etc. of those businesses will also be implemented. </p>
        </div>
-   </section>
- <section>
+      </div>
+   </div>
+ </section>
 </body>
 </html>
